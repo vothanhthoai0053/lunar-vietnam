@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>/media/vtt0053/Samsung_T5/HtmzTeam/Project/Ecosystem/lunar-vietnam/dist/lunar-vietnam.jar</jar>
+  <outfile>/media/vtt0053/Samsung_T5/lunarvn/lunar-vn.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>/media/vtt0053/Samsung_T5/HtmzTeam/Project/Ecosystem/lunar-vietnam/deploy/icon/eclipse.ico</icon>
+  <singleInstance>
+    <mutexName>lunar-vietnam</mutexName>
+    <windowTitle>Lunar App</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>com.htmz.lichvn.main.CalendarWiget</mainClass>
+  </classPath>
+  <jre>
+    <path>jre</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0_0</minVersion>
+    <maxVersion>1.7.0_80</maxVersion>
+    <jdkPreference>jreOnly</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>10</initialHeapSize>
+    <maxHeapSize>100</maxHeapSize>
+  </jre>
+</launch4jConfig>
